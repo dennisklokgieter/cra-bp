@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../logo.svg";
+import "../App.css";
 
 const Header = () => {
   const activeStyle = { color: "#F15B2A" };
@@ -9,7 +10,7 @@ const Header = () => {
       <NavLink className="navbar-brand" to="/" exact>
         <img
           src={logo}
-          className="d-inline-block align-top"
+          className="d-inline-block align-top App-logo"
           width="30px"
           height="30px"
           alt="logo"
